@@ -1,0 +1,17 @@
+# Archivos compilados de Java
+*.class
+
+# Carpetas de compilación
+/out/
+/build/
+
+# Archivos de IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
