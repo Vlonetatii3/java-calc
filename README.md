@@ -1,14 +1,16 @@
-Calculadora Java
-Descripción
+# Calculadora Java
+
+## Descripción
 
 Esta es una aplicación de calculadora básica desarrollada en Java. Permite realizar operaciones matemáticas fundamentales como suma, resta, multiplicación y división a través de una interfaz simple y fácil de usar.
 
 El proyecto sirve como ejemplo para practicar programación en Java y manejo de entrada de usuario, lógica condicional y estructuras de control.
 
-Características
+## Características
 
 Operaciones aritméticas básicas:
 
+```Java
 Suma
 
 Resta
@@ -16,6 +18,8 @@ Resta
 Multiplicación
 
 División
+```
+
 
 Manejo de errores como división por cero.
 
@@ -23,17 +27,20 @@ Interfaz de línea de comandos (CLI) simple.
 
 Código modular y fácil de entender para principiantes.
 
-Tecnologías
+## Tecnologías
 
 Java 8 o superior
 
 IDE recomendado: IntelliJ IDEA, Eclipse o NetBeans
 
-Instalación
-
+## Instalación
+ 
 Clonar el repositorio
 
-git clone https://github.com/tuusuario/calculadora-java.git
+```bash
+git clone https://github.com/tuusuario/java-calc.git
+```
+
 
 
 Abrir el proyecto en tu IDE favorito
@@ -42,27 +49,24 @@ Compilar y ejecutar la clase principal (Main.java)
 
 Usar la calculadora desde la consola ingresando números y seleccionando operaciones.
 
-Uso
+## Uso
 
-Ejemplo de interacción:
+### Ejemplo de interacción:
 
-Bienvenido a la Calculadora Java
-Ingrese el primer número: 10
-Ingrese el segundo número: 5
-Seleccione operación (+, -, *, /): *
-Resultado: 50
+```Java
+Bienvenido a mi aplicacion basica de calculadora!
 
-Estructura del proyecto
-CalculadoraJava/
-│
-├── src/
-│   ├── Main.java       # Clase principal con la lógica de la calculadora
-│   └── Calculadora.java # Clase con métodos de operaciones
-│
-├── README.md           # Documentación del proyecto
-└── .gitignore          # Archivos y carpetas a ignorar en Git
+¿Que desea hacer?
+1. Suma
+2. Resta
+3. Multiplicacion
+4. Division
+5. Exponenciacion
+6. Salir
+Opcion: 
+```
 
-Contribuciones
+## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Puedes:
 
